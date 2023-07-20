@@ -20,19 +20,19 @@ interface Props {
 const GenreList = ({ onSelectGenre, selectedGenre }: Props) => {
   const { data, isLoading, error } = useGenres();
 
-  if (error) return null;
-  if (isLoading)
-    return (
-      <List>
-        {Array.from({ length: 19 - 1 + 1 }, (_, index) => index + 1).map(
-          (item) => (
-            <ListItem key={item}>
-              <Skeleton height={"32px"} marginY={"10px"} />
-            </ListItem>
-          )
-        )}
-      </List>
-    );
+  // if (error) return null;
+  // if (isLoading)
+  //   return (
+  //     <List>
+  //       {Array.from({ length: 19 - 1 + 1 }, (_, index) => index + 1).map(
+  //         (item) => (
+  //           <ListItem key={item}>
+  //             <Skeleton height={"32px"} marginY={"10px"} />
+  //           </ListItem>
+  //         )
+  //       )}
+  //     </List>
+  //   );
 
   return (
     <>
