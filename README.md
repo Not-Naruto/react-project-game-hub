@@ -1,5 +1,3 @@
-# react-project-game-hub
-
 <h1>GameHub</h1>
 
 <p>App link: <a href='https://game-hub-eight-rosy.vercel.app'>https://game-hub-eight-rosy.vercel.app</a></p>
